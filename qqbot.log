@@ -1,0 +1,32 @@
+2022-08-15 22:41:08,974-qqbot - ws_async_manager.py - start - line 50-INFO - session manager start with: {'url': 'wss://api.sgroup.qq.com/websocket', 'shards': 1, 'session_start_limit': {'total': 1000, 'remaining': 1000, 'reset_after': 86400000, 'max_concurrency': 1}}, token:<qqbot.model.token.Token object at 0x7f28c72a3cd0>, intent:1073741824
+2022-08-15 22:41:09,004-qqbot - ws_async_manager.py - start - line 63-INFO - session_interval: 5, shards: 1
+2022-08-15 22:41:09,004-qqbot - ws_async_pool.py - add - line 61-INFO - add session: <qqbot.core.network.ws.ws_session.Session object at 0x7f28c72b1760>
+2022-08-15 22:41:09,005-qqbot - ws_async_pool.py - run - line 35-INFO - session list circle run
+2022-08-15 22:41:09,005-qqbot - ws_async_pool.py - run - line 37-INFO - async start session connect with max_async: 1, and list size: 1
+2022-08-15 22:41:09,006-qqbot - ws_async_pool.py - run - line 44-INFO - session list pop session with index 0
+2022-08-15 22:41:09,006-qqbot - ws_async_pool.py - _runner - line 55-INFO - run session with session: <qqbot.core.network.ws.ws_session.Session object at 0x7f28c72b1760>, time_interval: 5
+2022-08-15 22:41:14,008-qqbot - ws_async_manager.py - new_connect - line 114-INFO - _new_connect:<qqbot.core.network.ws.ws_session.Session object at 0x7f28c72b1760>
+2022-08-15 22:41:14,009-qqbot - ws_async_client.py - connect - line 82-INFO - ws client start connect
+2022-08-15 22:41:14,119-qqbot - ws_async_client.py - on_connected - line 71-INFO - ws client connected ok
+2022-08-15 22:41:14,119-qqbot - ws_async_client.py - identify - line 116-INFO - ws:<aiohttp.client_ws.ClientWebSocketResponse object at 0x7f28c72b1d00> start identify
+2022-08-15 22:41:14,120-qqbot - ws_async_client.py - _send_heartbeat - line 196-INFO - start send heartbeat
+2022-08-15 22:41:50,280-qqbot - maibot-guild-edition.py - _message_handler - line 80-INFO - event AT_MESSAGE_CREATE,receive message <@!989692290276852651> /今日舞萌
+2022-08-15 22:41:50,685-qqbot - async_http.py - _handle_response - line 48-ERROR - http request error with api_url:https://api.sgroup.qq.com/channels/4964529/messages, error: 500, content: {"code":40003,"message":"file type invalid"}, trace_id:0f70fc62d62517f89a373cf407c0bd12
+2022-08-15 22:42:11,820-qqbot - ws_async_manager.py - start_session - line 101-INFO - ws pool is stopped by key board interrupt
+2022-08-15 22:42:56,146-qqbot - ws_async_manager.py - start - line 50-INFO - session manager start with: {'url': 'wss://api.sgroup.qq.com/websocket', 'shards': 1, 'session_start_limit': {'total': 1000, 'remaining': 999, 'reset_after': 86298066, 'max_concurrency': 1}}, token:<qqbot.model.token.Token object at 0x7fdc5fab7c70>, intent:1073741824
+2022-08-15 22:42:56,147-qqbot - ws_async_manager.py - start - line 63-INFO - session_interval: 5, shards: 1
+2022-08-15 22:42:56,147-qqbot - ws_async_pool.py - add - line 61-INFO - add session: <qqbot.core.network.ws.ws_session.Session object at 0x7fdc5fac9700>
+2022-08-15 22:42:56,147-qqbot - ws_async_pool.py - run - line 35-INFO - session list circle run
+2022-08-15 22:42:56,147-qqbot - ws_async_pool.py - run - line 37-INFO - async start session connect with max_async: 1, and list size: 1
+2022-08-15 22:42:56,147-qqbot - ws_async_pool.py - run - line 44-INFO - session list pop session with index 0
+2022-08-15 22:42:56,148-qqbot - ws_async_pool.py - _runner - line 55-INFO - run session with session: <qqbot.core.network.ws.ws_session.Session object at 0x7fdc5fac9700>, time_interval: 5
+2022-08-15 22:43:01,153-qqbot - ws_async_manager.py - new_connect - line 114-INFO - _new_connect:<qqbot.core.network.ws.ws_session.Session object at 0x7fdc5fac9700>
+2022-08-15 22:43:01,153-qqbot - ws_async_client.py - connect - line 82-INFO - ws client start connect
+2022-08-15 22:43:01,262-qqbot - ws_async_client.py - on_connected - line 71-INFO - ws client connected ok
+2022-08-15 22:43:01,262-qqbot - ws_async_client.py - identify - line 116-INFO - ws:<aiohttp.client_ws.ClientWebSocketResponse object at 0x7fdc5fac9760> start identify
+2022-08-15 22:43:01,262-qqbot - ws_async_client.py - _send_heartbeat - line 196-INFO - start send heartbeat
+2022-08-15 22:43:09,400-qqbot - maibot-guild-edition.py - _message_handler - line 80-INFO - event AT_MESSAGE_CREATE,receive message <@!989692290276852651> /今日舞萌
+2022-08-15 22:43:09,752-qqbot - async_http.py - _handle_response - line 48-ERROR - http request error with api_url:https://api.sgroup.qq.com/channels/4964529/messages, error: 500, content: {"code":40003,"message":"file type invalid"}, trace_id:26e3bb9d4b53b23043d293b324172c02
+2022-08-15 22:43:33,453-qqbot - maibot-guild-edition.py - _message_handler - line 80-INFO - event AT_MESSAGE_CREATE,receive message <@!989692290276852651> /b40
+2022-08-15 22:44:04,522-qqbot - maibot-guild-edition.py - _message_handler - line 80-INFO - event AT_MESSAGE_CREATE,receive message <@!989692290276852651> /help
+2022-08-15 22:44:15,565-qqbot - ws_async_manager.py - start_session - line 101-INFO - ws pool is stopped by key board interrupt
