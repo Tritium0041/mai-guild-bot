@@ -4,3 +4,4 @@
 下载后请自行申请qq机器人的appid和token  
 可以使用screen直接运行  
 效果可以查看img4-img9  
+![img4]("\IMG_0004.PNG")
